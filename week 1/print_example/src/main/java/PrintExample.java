@@ -3,14 +3,14 @@ public class PrintExample {
 //        System.out.print("Name: Alice");
 //        System.out.print("Age: 20");
 
-        System.out.println("Name: Alice");
-        System.out.println("Age: 20");
+//        System.out.println("Name: Alice");
+//        System.out.println("Age: 20");
 //        String name;
-////        var name;
+        var name = "Alice";
 //        name = "Alice";
 //        int age = 20;
 //
-//        System.out.println("Name: " + name);
+        System.out.println("Name: " + name);
 //        System.out.println("Age: " + age);
     }
 }

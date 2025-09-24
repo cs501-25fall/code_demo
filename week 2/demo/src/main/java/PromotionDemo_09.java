@@ -5,12 +5,12 @@ public class PromotionDemo_09 {
 
         int c = a + b; // byte + byte → promoted to int
 
-        Object oa = a;       // autoboxes to Byte
-        Object ob = b;       // autoboxes to Byte
-        Object oSum = a + b; // int result autoboxed to Integer
+        Object oa = a;
+        Object ob = b;
+        Object oSum = a + b;
 
-        System.out.println(oa.getClass().getName());   // java.lang.Byte
-        System.out.println(ob.getClass().getName());   // java.lang.Byte
-        System.out.println(oSum.getClass().getName()); // java.lang.Integer
+        System.out.println(oa.getClass().getName());
+        System.out.println(ob.getClass().getName());
+        System.out.println(oSum.getClass().getName());
     }
 }
