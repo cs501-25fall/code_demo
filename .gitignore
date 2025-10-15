@@ -1,0 +1,8 @@
+# Mac related stuff
+.DS_Store
+
+# Java bytecode
+*.class
+
+# InteliJ related stuff
+.idea/
